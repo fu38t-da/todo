@@ -1,0 +1,37 @@
+body {
+    background-color: #edf0f1;
+  }
+
+  header.bg {
+      background: url(../img/bg.jpg) no-repeat center center;
+      background-size: cover;
+      height: 100vh;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background: #69b7ce;
+  }
+
+  header input {
+    width: 80%;
+    height: 50px;
+    line-height: 100vh;
+    color: #fff;
+    font-size: 16px;
+    text-indent: 20px;
+    background: rgba(84, 38, 190, 0.5);
+    border-radius: 10px;
+    border: none;
+  }
+
+  header i {
+    color: #fff;
+    cursor: pointer;
+  }
+
+  header i:hover {
+   opacity: .3;
+  }
